@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0055AA"
+  >
+    <!-- MAC 地址 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:paddingLeft="20dip"
+	    >
+	     <TextView  
+	        android:id="@+id/macAddress"
+		    android:layout_width="80dip" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/macAddress"
+		    android:gravity="left"
+		  />	
+	
+	     <TextView  
+	        android:id="@+id/mac"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+	     />
+  	 </LinearLayout>
+  	 
+    
+    <!-- IP 地址 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:paddingLeft="20dip"
+	    >
+	     <TextView  
+	        android:id="@+id/ipAddress"
+		    android:layout_width="80dip" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/ipAddress"
+		    android:gravity="left"
+		  />	
+	
+	     <TextView  
+	        android:id="@+id/ip"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+	     />
+  	 </LinearLayout>
+
+    <!-- 掩码 地址 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:paddingLeft="20dip"
+	    >
+	     <TextView  
+	        android:id="@+id/maskAddress"
+		    android:layout_width="80dip" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/maskAddress"
+		    android:gravity="left"
+		  />	
+	
+	     <TextView  
+	        android:id="@+id/mask"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+	     />
+  	 </LinearLayout>    
+  	 
+
+    <!-- 网关 地址 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:paddingLeft="20dip"
+	    >
+	     <TextView  
+	        android:id="@+id/gatewayAddress"
+		    android:layout_width="80dip" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/gatewayAddress"
+		    android:gravity="left"
+		  />	
+	
+	     <TextView  
+	        android:id="@+id/gateway"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+	     />
+  	 </LinearLayout>   
+  	 
+ 
+    <!-- DNS服务器 地址 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:paddingLeft="20dip"
+	    >
+	     <TextView  
+	        android:id="@+id/DNSAddress"
+		    android:layout_width="80dip" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/DNSAddress"
+		    android:gravity="left"
+		  />	
+	
+	     <TextView  
+	        android:id="@+id/DNS"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+	     />
+  	 </LinearLayout>   
+  	 
+    <Button android:id="@+id/disConnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dip"
+        android:text="@string/disConnect"
+        />
+    
+    <LinearLayout
+		android:id="@+id/AdLinearLayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"/>
+</LinearLayout>

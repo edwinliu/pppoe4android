@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, pppoew!</string>
+    <string name="app_name">PPPoEW</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="autoDNS">Auto get DNS</string>
+    <string name="setDNS">Set DNS</string>
+    <string name="dialing">Dial-up</string>
+     <string name="conState">State</string>  
+    <string name="First_DNS">First DNS</string>
+    <string name="Second_DNS">Second DNS</string>   
+    <string name="dns">0.0.0.0</string>
+    <string name="input_error">Please input user name and password</string>
+     <string name="dns_error">DNS input Error!</string>
+    <string name="net_disconnect">disconnect</string>
+    <string name="net_connect">connect\n\nClick below AD \n\ngo to internet\n</string>
+    <string name="dial_up">Dial up</string>
+    <string name="str_pppoe1">/data/data/com.lvcoffee.pppoew/pppdw pty \"/data/data/com.lvcoffee.pppoew/pppoew -p /data/data/com.lvcoffee.pppoew/pid.pppoe -I </string>
+    <string name="str_pppoe2"> -T 80 -U -m 1412 \" noipdefault noauth default-asyncmap defaultroute  hide-password nodetach usepeerdns mtu 1492 mru 1492 noaccomp nodeflate nopcomp novj novjccomp user </string>
+    <string name="str_pppoe3"> lcp-echo-interval 20 lcp-echo-failure 3 </string>
+    <string name="dialup_summary">Dial up,please wait a moment</string>
+    <string name="save_log">Save log</string>
+    <string name="exit_app">Exit application</string>
+    <string name="menu_about"> About</string>
+    <string name="log_saved">Log had saved</string> 
+    <string name="no_sdcard">No SD Card</string>
+    <string name="no_root">No root,application will exit!</string> 
+    <string name="thank_you">\nThank you!</string> 
+    <string name="no_wifi">Are you open wifi and have root?</string> 
+    <string name="about">\n  Powered by lvcoffee \n\n  Homepage: www.lvcoffee.info\n</string>
+    <string name="tab1">Help</string>
+    <string name="tab2">PPPOE</string>
+    <string name="tab3">Donate</string>    
+    <string name="titleHint">You have %1$d Coins</string>    
+    <string name="cleanUsers">CleanUser</string>
+    <string name="cleanHint">Clean all user and pwd,Are you sure？</string>
+    <string name="netInterface">Net interface</string>
+    <string name="macAddress">MAC:</string>
+    <string name="ipAddress">IP:</string>
+    <string name="maskAddress">MASK:</string>
+    <string name="gatewayAddress">Gateway:</string>
+    <string name="DNSAddress">DNS:</string>
+    <string name="disConnect">DisConnect</string>
+    <string name="disConnectInfo">Terminal PPPOE,Are you sure?</string>
+    <string name="inputError">Input Error</string>
+    <string name="stepFail">PPPOE fail</string>
+    <string name="stepStart">Start pppoe</string>
+    <string name="stepPwdError">User or password error</string>
+    <string name="stepTimeout">Connect timeout</string>
+    <string name="stepSuccess">Pppoe success</string>
+    <string name="stepNetworkDown">Network is down</string>
+    <string name="stepNotSupportPppoe">Your system do not support pppoe</string>
+    <string name="stepConnectTerminate">Connection terminated</string>
+
+</resources>

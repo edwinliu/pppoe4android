@@ -1,0 +1,67 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+-keep public class com.lvcoffee.pppoew.R$*{
+    public static final int *;
+}
+
+-keep public class com.umeng.fb.ui.ThreadView {
+}
+# 添加第三方jar包
+-libraryjars libs/umeng_sdk.jar
+# 以下类过滤不混淆  
+-keep public class * extends com.umeng.**
+# 以下包不进行过滤 
+-keep class com.umeng.** { *; }
+
+-dontwarn com.umeng.**
+
+#-dontwarn net.youmi.android.**
+#-keep class net.youmi.android.** {  
+#*;  
+#}  
+
+-keep class android.webkit.**{
+	*;
+}
+
+
+#waps wall sdk
+-keep public class cn.waps.** {*;} 
+-keep public interface cn.waps.** {*;}
+
+
+#waps pay sdk
+-keep public interface com.wanpu.pay.** {*;}
+-keep public class com.wanpu.pay.** {*;}
+-keep public interface com.alipay.android.app.** {*;}
+-keep public class com.alipay.android.app.** {*;}
+-keep public interface com.payeco.android.plugin.** {*;}
+-keep public class com.payeco.android.plugin.** {*;}
+-keep public interface com.tenpay.android.service.** {*;}
+-keep public class com.tenpay.android.service.** {*;}
+
+

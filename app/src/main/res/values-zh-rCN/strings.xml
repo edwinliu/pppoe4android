@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, pppoew!</string>
+    <string name="app_name">PPPOE拨号</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密	码</string>
+    <string name="autoDNS">自动获取DNS地址</string>
+    <string name="setDNS">使用下面的DNS地址</string>
+    <string name="First_DNS">首选DNS</string>
+    <string name="Second_DNS">备用DNS</string>   
+    <string name="dialing">PPPOE拨号</string>
+    <string name="conState">连接状态</string>  
+    <string name="input_error">请正确输入用户名和密码，选择正确的网络接口</string>
+    <string name="dns_error">DNS输入错误</string>
+    <string name="net_disconnect">未连接</string>
+    <string name="net_connect">已连接\n\n下面的动画能打开\n\n即为拨号成功\n</string>
+    <string name="dial_up">正在拨号</string>
+    <string name="dialup_summary">拨号连接中,请稍等</string>
+    <string name="save_log">保存日志</string>
+    <string name="exit_app">中断连接</string>
+    <string name="menu_about">关于</string>
+    <string name="log_saved">日志已保存</string> 
+    <string name="no_sdcard">请插入SD卡，再保存</string>
+    <string name="no_root">手机没有root，拨号不能运行</string> 
+    <string name="no_wifi">请开启WIFI,连接到要拨号的接入点,并取得root权限，再拨号</string> 
+    <string name="thank_you">\n你的支持，是我改进的动力\n最新版官方下载</string> 
+    <string name="tab1">使用帮助</string>
+    <string name="tab2">拨号连接</string>
+    <string name="tab3">支持作者</string>   
+    <string name="titleHint">你有%1$d金币,金币多于100时，将去除广告 </string>    
+    <string name="cleanUsers">清除账号</string>
+    <string name="cleanHint">这将清除所有保存的用户名和密码，你确定要这么做？</string>
+    <string name="netInterface">网络接口</string>
+    <string name="macAddress">MAC:</string>
+    <string name="ipAddress">IP地址:</string>
+    <string name="maskAddress">掩码:</string>
+    <string name="gatewayAddress">网关:</string>
+    <string name="DNSAddress">DNS:</string>
+    <string name="disConnect">断  开  拨  号</string>
+    <string name="disConnectInfo">你确定要终止PPPOE拨号连接吗?</string>
+    <string name="inputError">输入错误</string>
+    <string name="stepFail">拨号失败</string>
+    <string name="stepStart">开始PPPOE拨号</string>
+    <string name="stepPwdError">用户名或密码错误</string>
+    <string name="stepTimeout">请求超时</string>
+    <string name="stepSuccess">拨号成功</string>
+    <string name="stepNetworkDown">网络已关闭，请检查WIFI是否开启成功</string>
+    <string name="stepNotSupportPppoe">你的系统不支持PPPOE拨号，请重刷支持拨号的ROM</string>
+    <string name="stepConnectTerminate">连接中断，拨号失败</string>
+
+</resources>
